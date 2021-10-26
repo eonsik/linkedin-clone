@@ -9,6 +9,9 @@ function App() {
         {/* Header */}
         <Header />
         {/* Main Body */}
+        <div className="app__body">
+          <Sidebar />
+        </div>
         {/* Left Sidebar */}
         {/* Right Sidebar */}
       </div>
