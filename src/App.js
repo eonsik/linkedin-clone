@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import "./App.css";
+import LeftSidebar from "./LeftSidebar";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <Header />
         {/* Main Body */}
         <div className="app__body">
-          <Sidebar />
+          <LeftSidebar />
         </div>
         {/* Left Sidebar */}
         {/* Right Sidebar */}
